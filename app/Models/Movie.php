@@ -6,5 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Movie extends Model
 {
-    //
+    public $timestamps = false;
+
+    protected $fillable = [
+        'original_title',
+        'nationality',
+        'date',
+        'vote',
+        'image'
+    ];
 }
