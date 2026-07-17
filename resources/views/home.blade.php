@@ -13,7 +13,6 @@
                 {{-- Poster + overlay + play --}}
                 <div class="poster-wrapper">
 
-                    {{-- Poster TMDB --}}
                     <img
                         src="{{ $movie->image }}"
                         class="poster-img"
@@ -21,16 +20,6 @@
 
                     {{-- Overlay blu Prime Video --}}
                     <div class="poster-overlay"></div>
-
-                    {{-- Icona Play --}}
-                    <div class="play-icon">
-                        ▶
-                    </div>
-
-                    {{-- Badge voto --}}
-                    <div class="rating-badge">
-                        ⭐ {{ $movie->vote }}
-                    </div>
 
                 </div>
 
